@@ -1,0 +1,53 @@
+html {
+    box-sizing: border-box;
+    font-size: 62.5%; /* 1rem = 10px */
+}
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+figure {
+    margin: 0 0 16px 0;
+    background-color: white;
+    border: 1px solid black;
+    display: inline-block;
+}
+
+figure img {
+    width: 100%;
+}
+
+figcaption {
+    padding: 8px;
+}
+
+.banner {
+    display: none;
+}
+
+.km {
+    display: none;
+}
+
+@media (min-width: 576px) {
+  figure {
+    display: inline-block;
+    width: 48%;
+    vertical-align: top;
+  }
+}
+
+@media (min-width: 768px) {
+  .km {
+    display: inline;
+  }
+  .banner {
+    display: block;
+  }
+}
+
+@media (min-width: 992px) {
+  figure {
+    width: 32%;
+  }
+}
