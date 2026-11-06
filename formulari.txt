@@ -1,0 +1,11 @@
+GALERIA
+G1: no me surt cap ratlla buida
+G2: 400px -> 1 foto per fila, no es veuen els km i no es veu el banner
+    600px -> 2 fotos per fila, no es veuen els km i no es veu el banner
+    800px -> 2 fotos per fila, sí es veuen els km i sí es veu el banner
+    1000px -> 3 fotos per fila, sí es veuen els km i sí es veu el banner
+    1400px -> 3 fotos per fila, sí es veuen els km i sí es veu el banner
+G3: a) 33,33% no serveis perquè hi ha un margin possat i no té espai per ocupar. Jo utilitz 32%
+    b) Dels seu pare, el figure que no hi és al media query
+    c) Perquè hi hauria una fila amb una sola foto i no quedaria bé
+Repte: només es posa un max-width de 1100px a la part d'html del css
