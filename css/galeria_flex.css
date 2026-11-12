@@ -38,6 +38,7 @@ main {
     display: flex;
     flex-wrap: wrap; /* si no hi caben, a la fila següent */
     gap: 16px; /* l’espai entre fotos: fora marges */
+    justify-content: center;
 }
 
 /* Mòbil: una foto per fila */

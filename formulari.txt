@@ -1,4 +1,4 @@
-GALERIA
+GALERIA RESPONSIVE
 G1: no me surt cap ratlla buida
 G2: 400px -> 1 foto per fila, no es veuen els km i no es veu el banner
     600px -> 2 fotos per fila, no es veuen els km i no es veu el banner
@@ -9,3 +9,7 @@ G3: a) 33,33% no serveis perquè hi ha un margin possat i no té espai per ocupa
     b) Dels seu pare, el figure que no hi és al media query
     c) Perquè hi hauria una fila amb una sola foto i no quedaria bé
 Repte: només es posa un max-width de 1100px a la part d'html del css
+
+GALERIA FLEX
+F1: a) Per el flex-wrap: wrap; al .galeria del css
+    b) Al figcaption, i es posa aqui per poder modificar els seus elements independentment
