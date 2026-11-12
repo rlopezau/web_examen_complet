@@ -13,3 +13,7 @@ Repte: només es posa un max-width de 1100px a la part d'html del css
 GALERIA FLEX
 F1: a) Per el flex-wrap: wrap; al .galeria del css
     b) Al figcaption, i es posa aqui per poder modificar els seus elements independentment
+F2: No apareix la línia, ara posam width: calc((100% - 32px) / 3), ara no fa falta vertical-align: top i ara el marge de fàbrica s'ha eliminat
+F3: a) Posaria width: calc((100% - 48px) / 3)
+    b) Queda a l'esquerra perquè el paràmetre flex-wrap: wrap de .galeria diu que si no cap a una fila, passa al principi de la següent
+Repte: a .galeria poses justify-content: center
